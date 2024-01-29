@@ -19,7 +19,7 @@ Regular code with lines highlighted looks like this:
     <bar type="name">goo</bar>
 </foo>
 ```
-And syntax highlighted code look like this:
+And syntax highlighted code looks like this:
 
 ```xml {.line-numbers highlight-lines="2"}
 <foo>

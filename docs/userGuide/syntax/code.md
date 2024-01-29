@@ -6,7 +6,28 @@ MarkBind can present formatted code blocks, be it fenced or inline, with either 
 
 <modal header="Dark Code Theme" id="modal:code-dark-example">
 
+<!--
 <pic src="/images/codeDarkTheme.png" alt="Theme example"></pic>
+-->
+#### An Example of the Dark Code Theme
+Inline code `looks something like this`.
+
+Regular code with lines highlighted looks like this:
+
+``` {.line-numbers highlight-lines="2"}
+<foo>
+    <bar type="name">goo</bar>
+</foo>
+```
+And syntax highlighted code look like this:
+
+```xml {.line-numbers highlight-lines="2"}
+<foo>
+    <bar type="name">goo</bar>
+</foo>
+```
+
+
 </modal>
 
 Refer [here](../siteJsonFile.html#style) for configuring MarkBind to use a specific theme for the code blocks.
